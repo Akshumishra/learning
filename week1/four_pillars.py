@@ -130,13 +130,16 @@ class UPI:  # Duck Typing
     def pay(self, amount):
         print(f"Paid ₹{amount} using UPI.")
 
+
 class DebitCard:
     def pay(self, amount):
         print(f"Paid ₹{amount} using Debit Card.")
 
+
 class NetBanking:
     def pay(self, amount):
         print(f"Paid ₹{amount} using Net Banking.")
+
 
 def make_payment(payment_method, amount):
     payment_method.pay(amount)
