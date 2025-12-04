@@ -7,7 +7,7 @@ logging.config.fileConfig("logging.conf")
 #     filename="test.log",
 #     level=logging.DEBUG,
 #     format="%(asctime)s %(name)s: %(levelname)s %(message)s",
-#     filemode='w'
+#     filemode='w' 
 # )
 
 logger = logging.getLogger("atmLogger")
