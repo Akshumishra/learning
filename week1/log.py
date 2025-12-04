@@ -1,15 +1,18 @@
 import logging
 import logging.config
-import os
 
-print("Current working directory:", os.getcwd())
-print("Files in directory:", os.listdir())
-
-# Load logging configuration
 logging.config.fileConfig("logging.conf")
 
-# Create logger
+# logging.basicConfig(
+#     filename="test.log",
+#     level=logging.DEBUG,
+#     format="%(asctime)s %(name)s: %(levelname)s %(message)s",
+#     filemode='w'
+# )
+
 logger = logging.getLogger("atmLogger")
+
+# logging.disable(logging.INFO)
 
 
 class InvalidPinError(Exception):
