@@ -1,0 +1,28 @@
+{
+    "students": [
+        {
+            "name": "Akshita",
+            "details": {
+                "age": 21,
+                "city": "Jaipur",
+                "skills": ["Python", "AI", "Pandas"]
+            }
+        },
+        {
+            "name": "Riya",
+            "details": {
+                "age": 25,
+                "city": "Delhi",
+                "skills": ["Java", "SQL"]
+            }
+        },
+        {
+            "name": "Rahul",
+            "details": {
+                "age": 27,
+                "city": "Mumbai",
+                "skills": ["C++", "Machine Learning"]
+            }
+        }
+    ]
+}

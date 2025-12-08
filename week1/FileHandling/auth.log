@@ -1,0 +1,9 @@
+Dec 12 10:22:14 server sshd[22002]: Failed password for root from 192.168.1.10 port 54421 ssh2
+Dec 12 10:22:16 server sshd[22022]: Failed password for admin from 192.168.1.20 port 54431 ssh2
+Dec 12 10:22:18 server sshd[22052]: Failed password for root from 192.168.1.10 port 54445 ssh2
+Dec 12 10:22:22 server sshd[22082]: Failed password for akshita from 192.168.1.30 port 54455 ssh2
+Dec 12 10:22:30 server sshd[22102]: Failed password for root from 192.168.1.10 port 54465 ssh2
+Dec 12 10:22:33 server sshd[22122]: Accepted password for riya from 192.168.1.40 port 54475 ssh2
+Dec 12 10:22:35 server sshd[22152]: Failed password for admin from 192.168.1.20 port 54436 ssh2
+Dec 12 10:22:40 server sshd[22172]: Failed password for root from 192.168.1.10 port 54485 ssh2
+hello maam how are you???

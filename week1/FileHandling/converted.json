@@ -1,0 +1,30 @@
+[
+    {
+        "Index":1,
+        "Customer Id":"CUST001",
+        "First Name":"Akshita",
+        "Last Name":"Mishra",
+        "Country":"India"
+    },
+    {
+        "Index":2,
+        "Customer Id":"CUST002",
+        "First Name":"Abhi",
+        "Last Name":"Sharma",
+        "Country":"USA"
+    },
+    {
+        "Index":3,
+        "Customer Id":"CUST003",
+        "First Name":"Rahul",
+        "Last Name":"Sharma",
+        "Country":"Australia"
+    },
+    {
+        "Index":4,
+        "Customer Id":"CUST004",
+        "First Name":"Ansh",
+        "Last Name":"Jain",
+        "Country":"India"
+    }
+]

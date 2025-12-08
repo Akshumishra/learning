@@ -1,0 +1,6 @@
+Index,Customer Id,First Name,Last Name,Country,Full Name,Company,City,Subscription Date
+1,CUST001,Akshita,Mishra,India,Akshita Mishra,Unknown,Unknown,Unknown
+2,CUST002,Abhi,Sharma,USA,Abhi Sharma,Unknown,Unknown,Unknown
+3,CUST003,Rahul,Sharma,Australia,Rahul Sharma,Unknown,Unknown,Unknown
+4,CUST004,Ansh,Jain,India,Ansh Jain,Unknown,Unknown,Unknown
+999,NEW001,Akshita,Mishra,India,Akshita Mishra,Future Coders,Jaipur,2025-01-01
