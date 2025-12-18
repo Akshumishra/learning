@@ -1,7 +1,7 @@
 from sqlalchemy import text
 import json
-from shared.database import engine
-from llm.rag.embedding.document_embedding import get_embedding
+from src.shared.database import engine
+from src.llm.rag.embedding.document_embedding import get_embedding
 
 def chunk_text(text_data: str, chunk_size=500, overlap=50):
     chunks = []

@@ -1,7 +1,7 @@
-from llm.rag.ingestion.load_pdf import get_all_documents, extract_text_from_pdf
-from llm.rag.ingestion.chunk import chunk_text, save_chunks_and_embeddings
-from llm.rag.retrieval.similarity_search import similarity_search
-from llm.rag.generation.generate_ans import generate_answer, build_prompt, build_context
+from src.llm.rag.ingestion.load_pdf import get_all_documents, extract_text_from_pdf
+from src.llm.rag.ingestion.chunk import chunk_text, save_chunks_and_embeddings
+from src.llm.rag.retrieval.similarity_search import similarity_search
+from src.llm.rag.generation.generate_ans import generate_answer, build_prompt, build_context
 
 def process_all_documents():
     documents = get_all_documents()

@@ -15,9 +15,9 @@ with engine.begin() as conn:
     conn.execute(text("""
         INSERT INTO documents (document_path, metadata)
         VALUES
-            ('llm_pdf_rag/PDFS/the-time-machine.pdf', '{"document_name": "The Time Machine", "document_size": 120000}'),
-            ('llm_pdf_rag/PDFS/romeo-and-juliet.pdf', '{"document_name": "Romeo And Juliet", "document_size": 4500}'),
-            ('llm_pdf_rag/PDFS/alice-adventures-in-wonderland.pdf', '{"document_name": "Alice Adventures In Wonderland", "document_size": 8900}')
+            ('/Users/akshitamishra/Desktop/llm_pdf_rag/PDFS/the-time-machine.pdf', '{"document_name": "The Time Machine", "document_size": 120000}'),
+            ('/Users/akshitamishra/Desktop/llm_pdf_rag/PDFS/romeo-and-juliet.pdf', '{"document_name": "Romeo And Juliet", "document_size": 4500}'),
+            ('/Users/akshitamishra/Desktop/llm_pdf_rag/PDFS/alice-adventures-in-wonderland.pdf', '{"document_name": "Alice Adventures In Wonderland", "document_size": 8900}')
         ON CONFLICT (document_path) DO NOTHING;
     """))
     

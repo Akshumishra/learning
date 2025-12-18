@@ -1,5 +1,5 @@
 import google.generativeai as genai
-from shared.config import Config
+from src.shared.config import Config
 
 genai.configure(api_key=Config.API_KEY)
 

@@ -1,7 +1,7 @@
 from sqlalchemy import text
 
-from shared.database import engine
-from llm.rag.embedding.query_embedding import get_query_embedding
+from src.shared.database import engine
+from src.llm.rag.embedding.query_embedding import get_query_embedding
 
 def similarity_search(query: str, top_k=5):
     query_embedding = get_query_embedding(query)

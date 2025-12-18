@@ -2,7 +2,7 @@ import re
 import PyPDF2
 from sqlalchemy import text
 
-from shared.database import engine
+from src.shared.database import engine
 
 def get_all_documents():
     query = text("SELECT id, document_path FROM documents " \
