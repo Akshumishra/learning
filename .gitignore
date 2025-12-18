@@ -2,6 +2,10 @@
 *.DS_Store
 .env
 *.env
-/Users/akshitamishra/Desktop/DataScience/learning/week1/API/client_secret_755761299502-sli5e90njnnpblq2q0b738bmtvtmvlhr.apps.googleusercontent.com.json
-/Users/akshitamishra/Desktop/DataScience/learning/week1/API/credentials.json
-/Users/akshitamishra/Desktop/DataScience/learning/week1/API/token.json
+week1/API/token.json
+week1/API/credentials.json
+week1/API/client_secret_*.json
+__pycache__/
+*.pyc
+.venv/
+*.venv
