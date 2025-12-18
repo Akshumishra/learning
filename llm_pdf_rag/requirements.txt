@@ -1,0 +1,5 @@
+google-generativeai
+sqlalchemy
+dotenv
+PyPDF2
+psycopg2
