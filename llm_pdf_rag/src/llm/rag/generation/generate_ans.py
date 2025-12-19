@@ -14,19 +14,20 @@ def build_context(chunks, max_chars=2550):
 
 def build_prompt(context: str, query: str) -> str:
     return f"""
-You are a helpful assistant.
-Answer the question ONLY using the context below.
-If the answer is not present, say:
-"I don't know based on the provided documents."
+            You are a helpful assistant.
+            Answer the question ONLY using the context below.
+            If the answer is not present, 
+            search online from reliable sources and provide the answer.
+            If you cannot find the answer, respond with "I don't know".
 
-Context:
-{context}
+            Context:
+            {context}
 
-Question:
-{query}
+            Question:
+            {query}
 
-Answer:
-"""
+            Answer:
+            """
 
 def generate_answer(prompt: str) -> str:
     model = genai.GenerativeModel("models/gemini-2.5-flash")
