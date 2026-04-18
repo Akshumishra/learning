@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ClarityRAG Documentation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+  <h2>ClarityRAG</h2>
+  <ul>
+    <li><a href="#summary">Summary</a></li>
+    <li><a href="#screens">Project UI</a></li>
+    <li><a href="#architecture">Architecture</a></li>
+    <li><a href="#tech">Technologies</a></li>
+    <li><a href="#backend">Backend</a></li>
+    <li><a href="#frontend">Frontend</a></li>
+    <li><a href="#structure">Structure</a></li>
+    <li><a href="#deployment">Deployment</a></li>
+  </ul>
+</nav>
+
+<main>
+
+<section id="summary">
+  <h2>Executive Summary</h2>
+  <p>
+    ClarityRAG is a full-stack AI-powered conversational application using Retrieval-Augmented Generation (RAG).
+    It provides accurate answers based on user documents with a React frontend and FastAPI backend.
+  </p>
+</section>
+
+<!-- 🔥 NEW SECTION FOR IMAGES -->
+<section id="screens">
+  <h2>Project UI Screens</h2>
+
+  <div class="image-card">
+    <h3>Login Page</h3>
+    <img src="images/login.png" alt="Login UI">
+  </div>
+
+  <div class="image-card">
+    <h3>Chat Interface</h3>
+    <img src="images/chat.png" alt="Chat UI">
+  </div>
+
+  <div class="image-card">
+    <h3>Upload Knowledge Base</h3>
+    <img src="images/upload.png" alt="Upload UI">
+  </div>
+
+</section>
+
+<section id="architecture">
+  <h2>System Architecture</h2>
+  <p><strong>Frontend:</strong> React SPA using Vite</p>
+  <p><strong>Backend:</strong> FastAPI server with REST APIs</p>
+  <p><strong>Data Layer:</strong> SQL + FAISS vector storage</p>
+</section>
+
+<section id="tech">
+  <h2>Key Technologies</h2>
+
+  <h3>Backend</h3>
+  <p>FastAPI, LangChain, OpenAI, FAISS, SQLAlchemy</p>
+
+  <h3>Frontend</h3>
+  <p>React, Vite, Tailwind CSS, Axios</p>
+</section>
+
+<section id="backend">
+  <h2>Backend Implementation</h2>
+
+  <h3>RAG Pipeline</h3>
+  <p>
+    Uses document chunking, HyDE embeddings, similarity search with FAISS, and strict JSON-based grounding.
+  </p>
+
+  <ul>
+    <li>Per-user isolation</li>
+    <li>Thread-safe operations</li>
+    <li>Duplicate file detection</li>
+  </ul>
+</section>
+
+<section id="frontend">
+  <h2>Frontend Implementation</h2>
+  <p>Includes Auth, Upload, and Chat components.</p>
+</section>
+
+<section id="structure">
+  <h2>Project Structure</h2>
+
+<pre>
+ClarityRAG/
+ ├── backend/
+ ├── frontend/
+ └── rag.py
+</pre>
+
+</section>
+
+<section id="deployment">
+  <h2>Deployment</h2>
+
+  <p><strong>Backend:</strong></p>
+  <pre>uvicorn app.main:app --reload</pre>
+
+  <p><strong>Frontend:</strong></p>
+  <pre>npm run dev</pre>
+</section>
+
+</main>
+
+</body>
+</html>
