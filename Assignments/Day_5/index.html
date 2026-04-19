@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog App</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #f5f7fa;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 700px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .form {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      outline: none;
+      transition: 0.2s;
+    }
+
+    input:focus, textarea:focus {
+      border-color: #4CAF50;
+    }
+
+    button {
+      padding: 10px 15px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: 0.3s;
+    }
+
+    .add-btn {
+      background: #4CAF50;
+      color: white;
+      width: 100%;
+    }
+
+    .add-btn:hover {
+      background: #45a049;
+    }
+
+    .blog {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+      margin-bottom: 15px;
+      transition: 0.3s;
+    }
+
+    .blog:hover {
+      transform: translateY(-3px);
+    }
+
+    .blog h3 {
+      margin-bottom: 8px;
+      color: #222;
+    }
+
+    .blog p {
+      color: #555;
+      margin-bottom: 10px;
+    }
+
+    .actions {
+      display: flex;
+      gap: 10px;
+    }
+
+    .edit-btn {
+      background: #2196F3;
+      color: white;
+    }
+
+    .edit-btn:hover {
+      background: #1976D2;
+    }
+
+    .delete-btn {
+      background: #f44336;
+      color: white;
+    }
+
+    .delete-btn:hover {
+      background: #d32f2f;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <h2>Blogging App</h2>
+
+  <div class="form">
+    <input id="title" placeholder="Enter Title">
+    <textarea id="content" placeholder="Enter Content"></textarea>
+    <button class="add-btn" onclick="addBlog()">Add Blog</button>
+  </div>
+
+  <div id="blogs"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
