@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input id="num1" type="number" placeholder="Enter first number">
+<input id="num2" type="number" placeholder="Enter second number">
+
+<button onclick="calculate()">Calculate</button>
+
+<p id="result"></p>
+
+<script>
+function calculate() {
+  let n1 = parseFloat(document.getElementById("num1").value);
+  let n2 = parseFloat(document.getElementById("num2").value);
+
+  document.getElementById("result").innerHTML =
+    "Multiplication: " + (n1 * n2) + "<br>" +
+    "Division: " + (n1 / n2);
+}
+</script>
+
+</body>
+</html>
